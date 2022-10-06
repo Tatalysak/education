@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    git add . <!--Добавляем все папки в стадию ожидания-->
+    git commit -m "all files added" <!--Отправить в локальное хранилище, выполнить коммит-->
+    git branch blog <!--создание новой ветки-->
+    git checkout blog <!--Переход на новую ветку blog-->
+    git merge blog <!--Слияние веток-->
+    git remote add origin https://github.com/Tatalysak/education.git <!--Подключиться к удаленному репозиторию-->
+    git push -u origin main <!--Добавить файлы в удаленный репозиторий-->
 </body>
 </html>
